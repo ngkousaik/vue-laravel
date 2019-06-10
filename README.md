@@ -1,1 +1,1 @@
-"# vue-laravel" 
+# vue-laravel
