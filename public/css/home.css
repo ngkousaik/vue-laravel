@@ -1,0 +1,94 @@
+
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+#list-task{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+#list-task > li {
+
+margin-top: 2%;
+    overflow-y: auto;
+}
+
+.set-as-done{
+ display: none;
+}
+
+.task-edit,.task-delete,.task-add,.close-modal,#submitForm {
+    cursor: pointer;
+
+    border-radius: 15px;
+
+
+text-align: center;
+    }
+
+.task-edit {
+background-color: beige;
+}
+
+.task-add {
+    background-color: #3f9ae5;
+}
+.close-modal {
+    background-color: #606f7b;
+    color: white;
+}
+.task-delete {
+    background-color: red;
+}
+
+#submitForm {
+    background-color: #3f9ae5;
+    padding: 2px;
+}
+.modal-content {
+    height: 400px;
+    width: 600px;
+}
+
+.modal-body,#add-edit-form {
+    height: 100%;
+}
+
+.modal-row{
+    margin-top: 10px;
+}
+
+.task-head {
+    line-height: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.error{
+    color: red;
+    white-space: nowrap;
+}
+
+.modal-header {
+    border-bottom:0;
+}
+
+.ul-header{
+    text-align: center;
+    margin-top: 2%;
+}
+.due-date-label{
+    white-space: nowrap;
+}
+
+#status{
+    margin-left: 55px;
+}
+
+.footer-modal {
+    margin-top: 5px;
+}
